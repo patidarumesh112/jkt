@@ -1,0 +1,8 @@
+services:
+  db:
+    image: postgres
+    ...
+  api-gateway:
+    build: ./apps/api-gateway
+  ingestion:
+    build: ./apps/ingestion-service
